@@ -4,6 +4,7 @@ export const site = {
   name: "Maria Uribe Estrada",
   firstName: "Maria",
   contactEmail: "marifer.uribest@gmail.com",
+  phone: "650-796-7702",
   // Paste your Calendly link here to show a "Schedule on Calendly" button.
   calendlyUrl: "",
   intro:

@@ -147,11 +147,14 @@ export default async function Home() {
           <div className="wrap contact-inner">
             <div>
               <h2>Book a session</h2>
-              <p>Send me an email with the subject and grade level, and we can find a time that works.</p>
+              <p>Email or text me with the subject and grade level, and we can find a time that works.</p>
             </div>
             <div className="contact-actions">
               <a className="email" href={`mailto:${site.contactEmail}`}>
                 {site.contactEmail}
+              </a>
+              <a className="email" href={`tel:+1${site.phone.replace(/\D/g, "")}`}>
+                {site.phone}
               </a>
               {site.calendlyUrl && (
                 <a className="btn btn-light" href={site.calendlyUrl} target="_blank" rel="noreferrer">
