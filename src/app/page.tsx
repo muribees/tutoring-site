@@ -119,7 +119,7 @@ export default async function Home() {
               <div>
                 <h2>Testimonials</h2>
                 <p className="section-sub">
-                  If we&rsquo;ve worked together, I&rsquo;d appreciate you sharing how it went.
+                  Read what students and parents have shared about working with me.
                 </p>
               </div>
               <TestimonialButton />
