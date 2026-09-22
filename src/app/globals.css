@@ -106,6 +106,10 @@ h3 {
   font-family: var(--font-d);
   font-size: 19px;
   text-decoration: none;
+  line-height: 1.25;
+}
+.brand-sub {
+  color: var(--muted);
   white-space: nowrap;
 }
 .nav {

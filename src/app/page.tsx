@@ -29,7 +29,7 @@ export default async function Home() {
       <header className="topbar">
         <div className="wrap">
           <a className="brand" href="#top">
-            {site.name}
+            {site.name} <span className="brand-sub">• Private Tutor</span>
           </a>
           <nav className="nav" aria-label="Sections">
             <a href="#subjects">Subjects</a>
